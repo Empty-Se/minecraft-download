@@ -1,9 +1,11 @@
-# Plain Craft Launcher (PCL) Download Edition — 第三方下载版
+# Minecraft Download
+
+项目全称：**Plain Craft Launcher (PCL) Minecraft Download（第三方下载版）**。
 
 原作者：**龙腾猫跃** · [赞助原作者](https://meloong.com/afd/a/LTCat)
 
-这是第三方基于 [Meloong-Git/PCL](https://github.com/Meloong-Git/PCL) **2.99.0.0** 独立修改的衍生项目，
-不是 PCL 官方发布，也不代表原作者。下载引擎、界面控件及大量基础代码来自 PCL；本项目没有把这些代码声称为原创。
+这是第三方基于 [Meloong-Git/PCL](https://github.com/Meloong-Git/PCL) **2.99.0.0** 修改的衍生工具。
+下载引擎、界面控件及大量基础代码来自该项目，作者归属与上游许可保留。
 
 本工具专注 Minecraft: Java Edition 的**版本下载、组件安装和多个游戏目录管理**。
 正常界面不提供账号登录或游戏启动。用于 CurseForge API 申请的项目目标是为这个实际工具增加模组与整合包资源检索；
@@ -12,7 +14,7 @@
 ## 功能
 
 - 浏览和搜索正式版、快照/预发布、远古版及源清单收录的愚人节版本。
-- 沿用 PCL 的 Minecraft 本体、资源、依赖库下载、校验和兼容组件安装流程。
+- 提供 Minecraft 本体、资源、依赖库下载、校验和兼容组件安装流程。
 - 按 Minecraft 版本选择 Forge、Fabric、NeoForge、OptiFine 等可用组件。
 - 先确认 `.minecraft` 根目录，再下载安装；一个目录可以包含多个版本。
 - 查看已安装版本、切换游戏目录、查看下载任务及返回目录管理。
@@ -60,3 +62,4 @@ Forge/NeoForge 的部分安装流程需要合适的 Java。安装完成后，用
 - 资源目录保留构建所需的上游第三方依赖；其作者与权利归属未改变。
 
 本仓库保留上游许可及合理使用指南，没有将 PCL 改为 MIT 或声明全部内容属于本项目作者。
+仓库名 `minecraft-download` 和页面主标题用来描述工具用途；项目全称保留上游指南要求的名称前缀和第三方修改说明。
